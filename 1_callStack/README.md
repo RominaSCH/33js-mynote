@@ -1,5 +1,5 @@
 # Call Stack
--------------------------------(MDN)
+
 function greeting() {
    // [1] Some code here
    sayHi();
@@ -13,9 +13,11 @@ function sayHi() {
 greeting();
 
 // [3] Some code here
--------------------------------(MDN)
+
+------------------------------
 
 call stack (stack 은 바닥이 막힌 긴 통)
+
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSml2s0BarfUbJtY9XRQDCFdVU_ULPWdgrkV1bmCGmsdiU4MP-FsDZ9EYvPHxtqQsJLsE&usqp=CAU">
 
 1. function greeting() 을 읽어 greeting()이 선언된 곳을 찾아간다.(다른 함수 무시하고 내려감)
